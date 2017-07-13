@@ -1,0 +1,6 @@
+framework module VOCoreText {
+  umbrella header "VOCoreText-umbrella.h"
+
+  export *
+  module * { export * }
+}

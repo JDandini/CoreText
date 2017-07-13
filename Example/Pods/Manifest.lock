@@ -1,0 +1,16 @@
+PODS:
+  - VOCoreText (0.1.0)
+
+DEPENDENCIES:
+  - VOCoreText (from `../`)
+
+EXTERNAL SOURCES:
+  VOCoreText:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VOCoreText: 735d3a87bf3fb83fac7b65a8c596c4734891164e
+
+PODFILE CHECKSUM: 6a982c5c2b3239ffc68e45d4f13ba5ce0babf831
+
+COCOAPODS: 1.2.0

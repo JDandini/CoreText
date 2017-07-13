@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VOCoreText'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VOCoreText.'
+  s.summary          = 'Library to create a NSAttributedString in a easy way'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod adds a layer to the NSAttributedString to make it comprensive and easy to use 
                        DESC
 
-  s.homepage         = 'https://github.com/jdandini/VOCoreText'
+  s.homepage         = 'https://www.vincoorbis.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jdandini' => 'javier.castaneda@vincoorbis.com' }
   s.source           = { :git => 'https://github.com/jdandini/VOCoreText.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.social_media_url = 'https://twitter.com/JDandini'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'VOCoreText/Classes/**/*'
   
   # s.resource_bundles = {
